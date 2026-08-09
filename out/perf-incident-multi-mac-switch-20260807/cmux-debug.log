@@ -1,0 +1,2405 @@
+cmux iOS debug log · cmux · built 2026-08-07 21:00:13 · started 2026-08-08T04:03:51Z
+[    0.002] app launch · composition root initialized
+[   10.236] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   10.299] sync.transport=render_grid
+[   10.315] sync.subscribe_ok topics=12 transport=renderGrid
+[   10.343] notif.reconcile delivered=0 handled=0 unread=0
+[   10.995] changes.summary ok requested=1 summaries=1 chips=0 sample=- reqSample=FF0AE9C2
+[   18.134] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   18.149] surface.layout bounds=402x700 window=false
+[   18.149] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   18.153] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   18.155] surface.layout bounds=0x0 window=false
+[   18.155] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   18.180] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[   18.207] surface.didMoveToWindow window=true
+[   18.207] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.219] surface.layout bounds=440x952 window=true
+[   18.219] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.225] surface.layout bounds=440x836 window=true
+[   18.225] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.250] surface.layout bounds=440x836 window=true
+[   18.250] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.252] runtime.tick
+[   18.252] scroll.bar total=17 offset=0 len=17
+[   18.254] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   18.254] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   18.254] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   18.255] runtime.tick
+[   18.255] scroll.bar total=61 offset=0 len=61
+[   18.255] runtime.tick
+[   18.256] surface.layout bounds=440x836 window=true
+[   18.256] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.281] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   18.281] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   18.389] zoom.report grid=72x61 id=1
+[   18.393] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   18.411] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[   18.423] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   18.423] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   18.423] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   18.459] terminal.output.drop_replay_barrier surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 count=1
+[   18.461] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=1 seq=732
+[   18.461] sync.render_grid_stale_theme surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 revision=5
+[   18.490] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   18.494] verified_replay.freeze transaction=1 contents=true
+[   18.494] zoom.applyViewSize eff=nil->72x61
+[   18.494] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   18.495] runtime.tick
+[   18.495] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.496] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] runtime.tick
+[   18.497] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   18.507] surface.layout bounds=440x836 window=true
+[   18.507] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.509] runtime.tick
+[   18.523] verified_replay.reveal transaction=1
+[   18.523] terminal.output.replay_barrier_cleared surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   18.523] terminal.output.replay_followup surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   18.523] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   18.538] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=10 seq=1464
+[   18.551] surface.layout bounds=440x836 window=true
+[   18.551] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.554] runtime.tick
+[   18.556] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   18.577] verified_replay.freeze transaction=2 contents=true
+[   18.578] runtime.tick
+[   18.578] runtime.tick
+[   18.578] runtime.tick
+[   18.578] runtime.tick
+[   18.578] runtime.tick
+[   18.578] runtime.tick
+[   18.590] surface.layout bounds=440x836 window=true
+[   18.590] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.592] runtime.tick
+[   18.607] verified_replay.reveal transaction=2
+[   18.607] terminal.output.replay_barrier_cleared surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   18.607] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   18.623] surface.layout bounds=440x836 window=true
+[   18.623] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   18.624] runtime.tick
+[   18.639] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   19.582] runtime.tick
+[   20.065] surface.didMoveToWindow window=false
+[   20.065] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   20.133] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   20.141] surface.layout bounds=402x700 window=false
+[   20.141] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   20.144] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   20.147] surface.layout bounds=0x0 window=false
+[   20.147] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   20.160] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[   20.180] surface.didMoveToWindow window=true
+[   20.180] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.189] surface.layout bounds=440x952 window=true
+[   20.189] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.191] surface.layout bounds=440x836 window=true
+[   20.191] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.211] surface.layout bounds=440x836 window=true
+[   20.211] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.215] surface.layout bounds=440x836 window=true
+[   20.215] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.216] runtime.tick
+[   20.216] scroll.bar total=17 offset=0 len=17
+[   20.217] runtime.tick
+[   20.218] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   20.219] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   20.219] runtime.tick
+[   20.219] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   20.219] scroll.bar total=61 offset=0 len=61
+[   20.219] runtime.tick
+[   20.220] macupdate.hint caps=39 version=nil hint=nil
+[   20.225] surface.layout bounds=440x836 window=true
+[   20.225] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.239] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   20.239] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   20.241] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   20.356] zoom.report grid=72x61 id=1
+[   20.356] CMUX_REPLAY stale_request_failed surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   20.393] sync.transport=render_grid
+[   20.393] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   20.447] sync.subscribe_ok topics=12 transport=renderGrid
+[   20.454] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x61
+[   20.460] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   20.473] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=1 seq=0
+[   20.473] notif.reconcile delivered=0 handled=0 unread=0
+[   20.482] terminal.output.drop_replay_barrier surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA count=1
+[   20.508] verified_replay.freeze transaction=1 contents=true
+[   20.508] zoom.applyViewSize eff=nil->72x61
+[   20.508] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   20.508] runtime.tick
+[   20.509] runtime.tick
+[   20.509] runtime.tick
+[   20.509] runtime.tick
+[   20.509] runtime.tick
+[   20.509] runtime.tick
+[   20.509] runtime.tick
+[   20.509] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   20.523] surface.layout bounds=440x836 window=true
+[   20.523] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.524] runtime.tick
+[   20.539] verified_replay.reveal transaction=1
+[   20.539] terminal.output.replay_barrier_cleared surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   20.540] terminal.output.replay_followup surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   20.540] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   20.556] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=10 seq=732
+[   20.562] surface.layout bounds=440x836 window=true
+[   20.562] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.563] runtime.tick
+[   20.574] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   20.593] verified_replay.freeze transaction=2 contents=true
+[   20.594] runtime.tick
+[   20.594] runtime.tick
+[   20.594] runtime.tick
+[   20.594] runtime.tick
+[   20.594] runtime.tick
+[   20.594] runtime.tick
+[   20.594] runtime.tick
+[   20.606] surface.layout bounds=440x836 window=true
+[   20.606] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.609] runtime.tick
+[   20.623] verified_replay.reveal transaction=2
+[   20.624] terminal.output.replay_barrier_cleared surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   20.624] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   20.640] surface.layout bounds=440x836 window=true
+[   20.640] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   20.640] runtime.tick
+[   20.658] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   21.089] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=7982A340
+[   21.595] runtime.tick
+[   22.239] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=1645ms
+[   22.885] surface.didMoveToWindow window=false
+[   22.885] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   22.907] runtime.tick
+[   22.971] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   22.980] surface.layout bounds=402x700 window=false
+[   22.980] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   22.983] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   22.985] surface.layout bounds=0x0 window=false
+[   22.985] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   22.999] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[   23.018] surface.didMoveToWindow window=true
+[   23.019] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   23.027] surface.layout bounds=440x952 window=true
+[   23.028] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   23.030] surface.layout bounds=440x836 window=true
+[   23.031] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   23.051] surface.layout bounds=440x836 window=true
+[   23.051] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   23.053] runtime.tick
+[   23.053] scroll.bar total=17 offset=0 len=17
+[   23.055] macupdate.hint caps=39 version=nil hint=nil
+[   23.059] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   23.064] runtime.tick
+[   23.064] scroll.bar total=61 offset=0 len=61
+[   23.064] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   23.064] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   23.064] surface.layout bounds=440x836 window=true
+[   23.064] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   23.064] runtime.tick
+[   23.073] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   23.073] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   23.088] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   23.189] zoom.report grid=72x61 id=1
+[   23.190] CMUX_REPLAY stale_request_failed surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   23.217] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x61
+[   23.223] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   23.223] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   23.232] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[   23.245] sync.transport=render_grid
+[   23.245] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   23.245] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   23.250] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=10 seq=0
+[   23.268] sync.subscribe_ok topics=12 transport=renderGrid
+[   23.290] notif.reconcile delivered=0 handled=0 unread=0
+[   23.290] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   23.294] verified_replay.freeze transaction=1 contents=true
+[   23.294] zoom.applyViewSize eff=nil->72x61
+[   23.295] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   23.295] runtime.tick
+[   23.295] runtime.tick
+[   23.295] runtime.tick
+[   23.295] runtime.tick
+[   23.295] runtime.tick
+[   23.295] runtime.tick
+[   23.295] runtime.tick
+[   23.295] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   23.303] surface.layout bounds=440x836 window=true
+[   23.303] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   23.305] runtime.tick
+[   23.316] verified_replay.reveal transaction=1
+[   23.316] terminal.output.replay_barrier_cleared surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   23.316] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   23.327] surface.layout bounds=440x836 window=true
+[   23.327] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   23.328] runtime.tick
+[   23.344] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   23.679] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[   24.272] surface.didMoveToWindow window=false
+[   24.272] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   24.294] runtime.tick
+[   25.466] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   25.476] surface.layout bounds=402x700 window=false
+[   25.476] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   25.480] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   25.483] surface.layout bounds=0x0 window=false
+[   25.483] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   25.495] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[   25.514] surface.didMoveToWindow window=true
+[   25.514] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   25.523] surface.layout bounds=440x952 window=true
+[   25.524] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   25.527] surface.layout bounds=440x836 window=true
+[   25.527] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   25.547] surface.layout bounds=440x836 window=true
+[   25.547] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   25.549] runtime.tick
+[   25.549] scroll.bar total=17 offset=0 len=17
+[   25.551] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   25.552] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   25.552] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   25.552] runtime.tick
+[   25.552] scroll.bar total=61 offset=0 len=61
+[   25.562] surface.layout bounds=440x836 window=true
+[   25.562] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   25.564] runtime.tick
+[   25.579] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   25.579] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   25.697] zoom.report grid=72x61 id=1
+[   25.711] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   25.711] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   25.731] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=10 seq=0
+[   25.763] verified_replay.freeze transaction=1 contents=true
+[   25.764] zoom.applyViewSize eff=nil->72x61
+[   25.764] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   25.764] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   25.764] runtime.tick
+[   25.764] runtime.tick
+[   25.764] runtime.tick
+[   25.764] runtime.tick
+[   25.764] runtime.tick
+[   25.764] runtime.tick
+[   25.764] runtime.tick
+[   25.764] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   25.778] surface.layout bounds=440x836 window=true
+[   25.778] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   25.780] runtime.tick
+[   25.811] verified_replay.reveal transaction=1
+[   25.811] terminal.output.replay_barrier_cleared surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   25.811] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   25.827] surface.layout bounds=440x836 window=true
+[   25.827] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   25.829] runtime.tick
+[   25.840] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   26.494] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   26.520] surface.layout bounds=440x836 window=true
+[   26.520] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   26.541] surface.layout bounds=440x802 window=true
+[   26.541] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   26.544] runtime.tick
+[   26.544] geom.deferShrink container=440x396 applied=440x714
+[   26.545] geom container=440x396 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   26.545] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x33 lastReported=72x61
+[   26.673] zoom.report grid=72x33 id=2
+[   26.746] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x33
+[   26.746] zoom.applyViewSize eff=72x61->72x33
+[   26.761] geom.deferShrink container=440x396 applied=440x714
+[   26.761] geom container=440x396 scale=3.0 cellPx=18x35 natural=72x61 eff=72x33 pinned=nil renderRect=440x714@0
+[   26.761] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   26.762] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[   26.765] runtime.tick
+[   26.777] sync.render_grid_stale source=event surface=943A4094-57C7-4BD7-BB9A-13589AEE707B delivered=0 frame=0
+[   26.805] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=1 seq=0
+[   26.920] verified_replay.resubmit reason=geometry revision=2
+[   26.931] runtime.tick
+[   26.931] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   26.931] verified_replay.resubmit reason=geometry revision=3
+[   26.931] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   26.933] runtime.tick
+[   26.933] scroll.bar total=33 offset=0 len=33
+[   26.946] surface.layout bounds=440x802 window=true
+[   26.946] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   26.948] runtime.tick
+[   26.953] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   26.953] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   27.053] zoom.report grid=72x33 id=3
+[   27.070] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   27.257] terminal.output.drop_replay_barrier surface=943A4094-57C7-4BD7-BB9A-13589AEE707B count=1
+[   27.552] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=1788ms
+[   27.605] sync.input_seq_wait surface=943A4094-57C7-4BD7-BB9A-13589AEE707B local=0 pending=732 remote=732
+[   27.698] sync.input_seq_wait surface=943A4094-57C7-4BD7-BB9A-13589AEE707B local=0 pending=1001 remote=1001
+[   27.828] sync.input_seq_wait surface=943A4094-57C7-4BD7-BB9A-13589AEE707B local=0 pending=1007 remote=1007
+[   27.845] sync.input_seq_wait surface=943A4094-57C7-4BD7-BB9A-13589AEE707B local=0 pending=1013 remote=1013
+[   27.992] sync.input_seq_wait surface=943A4094-57C7-4BD7-BB9A-13589AEE707B local=0 pending=1019 remote=1019
+[   28.108] sync.input_seq_wait surface=943A4094-57C7-4BD7-BB9A-13589AEE707B local=0 pending=1025 remote=1025
+[   28.936] verified_replay.TIMEOUT elapsedMs=2004 reason=model_allocation_changed
+[   28.936] render.recover reason=verified_replay_timeout stalledMs=2004 generation=0 pendingFrees=0
+[   28.950] surface.layout bounds=440x802 window=true
+[   28.950] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   28.950] runtime.tick
+[   28.950] scroll.bar total=17 offset=0 len=17
+[   28.950] scroll.bar total=33 offset=0 len=33
+[   28.951] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   28.951] runtime.tick
+[   28.951] verified_replay.freeze transaction=7 contents=false
+[   28.951] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[   28.951] terminal.output.reset_replay_ack surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   28.953] surface.layout bounds=440x802 window=true
+[   28.953] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   28.957] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   28.957] render.recover.free_drained pendingFrees=0
+[   28.970] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   28.994] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=10 seq=1577
+[   29.011] runtime.tick
+[   29.012] runtime.tick
+[   29.012] runtime.tick
+[   29.012] runtime.tick
+[   29.012] runtime.tick
+[   29.012] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 396.0) frame=(0.0, 0.0, 440.0, 396.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   29.014] runtime.tick
+[   29.036] verified_replay.reveal transaction=3
+[   29.036] terminal.output.replay_barrier_cleared surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   29.054] surface.layout bounds=440x802 window=true
+[   29.054] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   29.054] runtime.tick
+[   29.070] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   29.241] verified_replay.freeze transaction=4 contents=true
+[   29.241] terminal.output.reset surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   29.254] surface.layout bounds=440x802 window=true
+[   29.254] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   29.256] runtime.tick
+[   29.270] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   29.286] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=10 seq=1577
+[   29.302] runtime.tick
+[   29.304] runtime.tick
+[   29.304] runtime.tick
+[   29.304] runtime.tick
+[   29.304] runtime.tick
+[   29.338] verified_replay.reveal transaction=5
+[   29.338] terminal.output.replay_barrier_cleared surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   29.354] surface.layout bounds=440x802 window=true
+[   29.354] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   29.354] runtime.tick
+[   29.370] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   29.553] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=248ms
+[   30.309] runtime.tick
+[   30.340] verified_replay.freeze transaction=6 contents=true
+[   30.340] terminal.output.reset surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   30.354] surface.layout bounds=440x802 window=true
+[   30.354] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   30.370] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   30.398] sync.render_grid_waiting_for_baseline source=event surface=943A4094-57C7-4BD7-BB9A-13589AEE707B seq=2872
+[   30.398] terminal.output.drop_replay_barrier surface=943A4094-57C7-4BD7-BB9A-13589AEE707B count=1
+[   30.403] sync.render_grid_waiting_for_baseline source=event surface=943A4094-57C7-4BD7-BB9A-13589AEE707B seq=2884
+[   30.490] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=82 seq=2884
+[   30.507] runtime.tick
+[   30.507] runtime.tick
+[   30.507] runtime.tick
+[   30.507] runtime.tick
+[   30.507] runtime.tick
+[   30.508] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 396.0) frame=(0.0, 0.0, 440.0, 396.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   30.537] verified_replay.reveal transaction=7
+[   30.537] terminal.output.replay_barrier_cleared surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   30.537] terminal.output.replay_followup surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   30.554] surface.layout bounds=440x802 window=true
+[   30.554] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   30.555] runtime.tick
+[   30.570] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   30.587] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=82 seq=2884
+[   30.625] verified_replay.freeze transaction=8 contents=true
+[   30.625] runtime.tick
+[   30.625] runtime.tick
+[   30.625] runtime.tick
+[   30.625] runtime.tick
+[   30.625] runtime.tick
+[   30.625] runtime.tick
+[   30.637] surface.layout bounds=440x802 window=true
+[   30.637] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   30.640] runtime.tick
+[   30.653] verified_replay.reveal transaction=8
+[   30.653] terminal.output.replay_barrier_cleared surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   30.653] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   30.683] surface.layout bounds=440x802 window=true
+[   30.683] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   30.683] runtime.tick
+[   30.688] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   30.777] composer.keyboardHideWhilePresented prevKeyboardHeight=318 frOwner=2 proxyIsFR=1
+[   30.784] surface.layout bounds=440x836 window=true
+[   30.784] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   30.792] runtime.tick
+[   30.823] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=72x33 pinned=440x394 renderRect=440x394@36
+[   30.823] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=72x33
+[   30.823] runtime.tick
+[   30.823] scroll.bar total=33 offset=0 len=33
+[   30.826] surface.layout bounds=440x836 window=true
+[   30.826] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   30.827] runtime.tick
+[   30.845] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=72x33 pinned=440x394 renderRect=440x394@0
+[   30.845] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x36 lastReported=72x36
+[   30.845] runtime.tick
+[   30.845] scroll.bar total=33 offset=0 len=33
+[   30.986] zoom.report grid=72x36 id=4
+[   31.081] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x36
+[   31.082] zoom.applyViewSize eff=72x33->72x36
+[   31.087] runtime.tick
+[   31.087] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=72x36 pinned=nil renderRect=440x430@0
+[   31.089] runtime.tick
+[   31.089] scroll.bar total=36 offset=0 len=36
+[   31.095] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[   31.105] surface.layout bounds=440x836 window=true
+[   31.105] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.105] runtime.tick
+[   31.121] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=72x36 pinned=nil renderRect=440x430@0
+[   31.134] terminal.output.drop_replay_barrier surface=943A4094-57C7-4BD7-BB9A-13589AEE707B count=1
+[   31.134] sync.render_grid_stale source=event surface=943A4094-57C7-4BD7-BB9A-13589AEE707B delivered=2884 frame=2884
+[   31.148] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=82 seq=2884
+[   31.149] sync.render_grid_stale_theme surface=943A4094-57C7-4BD7-BB9A-13589AEE707B revision=33
+[   31.260] surface.didMoveToWindow window=false
+[   31.261] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   31.313] runtime.tick
+[   31.503] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   31.513] surface.layout bounds=402x700 window=false
+[   31.513] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   31.517] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   31.519] surface.layout bounds=0x0 window=false
+[   31.519] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   31.532] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[   31.553] surface.didMoveToWindow window=true
+[   31.553] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.562] surface.layout bounds=440x952 window=true
+[   31.562] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.565] surface.layout bounds=440x836 window=true
+[   31.565] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.587] surface.layout bounds=440x836 window=true
+[   31.587] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.588] runtime.tick
+[   31.589] scroll.bar total=17 offset=0 len=17
+[   31.590] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   31.591] macupdate.hint caps=39 version=nil hint=nil
+[   31.591] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   31.591] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   31.591] runtime.tick
+[   31.591] scroll.bar total=61 offset=0 len=61
+[   31.591] runtime.tick
+[   31.604] surface.layout bounds=440x836 window=true
+[   31.604] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.608] runtime.tick
+[   31.609] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   31.621] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   31.621] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   31.719] zoom.report grid=72x61 id=1
+[   31.720] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   31.731] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[   31.739] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   31.739] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   31.773] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=10 seq=1464
+[   31.788] sync.transport=render_grid
+[   31.788] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   31.788] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   31.807] verified_replay.freeze transaction=1 contents=true
+[   31.807] zoom.applyViewSize eff=nil->72x61
+[   31.807] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   31.807] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   31.807] runtime.tick
+[   31.807] runtime.tick
+[   31.807] runtime.tick
+[   31.807] runtime.tick
+[   31.807] runtime.tick
+[   31.807] runtime.tick
+[   31.807] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   31.820] surface.layout bounds=440x836 window=true
+[   31.820] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.822] runtime.tick
+[   31.840] verified_replay.reveal transaction=1
+[   31.840] terminal.output.replay_barrier_cleared surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   31.840] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   31.853] surface.layout bounds=440x836 window=true
+[   31.853] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   31.853] runtime.tick
+[   31.869] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   31.876] sync.subscribe_ok topics=12 transport=renderGrid
+[   31.981] notif.reconcile delivered=0 handled=0 unread=0
+[   32.320] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   32.355] surface.layout bounds=440x836 window=true
+[   32.355] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   32.364] geom.deferShrink container=440x396 applied=440x714
+[   32.368] surface.layout bounds=440x802 window=true
+[   32.368] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   32.370] runtime.tick
+[   32.371] geom container=440x396 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   32.371] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x33 lastReported=72x61
+[   32.371] runtime.tick
+[   32.386] geom.deferShrink container=440x396 applied=440x714
+[   32.387] geom container=440x396 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   32.387] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   32.503] zoom.report grid=72x33 id=2
+[   32.516] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x33
+[   32.516] zoom.applyViewSize eff=72x61->72x33
+[   32.519] geom.deferShrink container=440x396 applied=440x714
+[   32.520] geom container=440x396 scale=3.0 cellPx=18x35 natural=72x61 eff=72x33 pinned=nil renderRect=440x714@0
+[   32.520] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   32.526] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   32.572] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[   32.577] terminal.output.drop_replay_barrier surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 count=1
+[   32.640] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=10 seq=2196
+[   32.656] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=FF0AE9C2
+[   32.737] verified_replay.resubmit reason=geometry revision=2
+[   32.738] runtime.tick
+[   32.739] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   32.739] verified_replay.resubmit reason=geometry revision=3
+[   32.739] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   32.742] runtime.tick
+[   32.742] scroll.bar total=33 offset=0 len=33
+[   32.754] surface.layout bounds=440x802 window=true
+[   32.754] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   32.755] runtime.tick
+[   32.784] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   32.784] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   32.787] verified_replay.freeze transaction=2 contents=true
+[   32.788] runtime.tick
+[   32.788] runtime.tick
+[   32.788] runtime.tick
+[   32.788] runtime.tick
+[   32.788] runtime.tick
+[   32.788] runtime.tick
+[   32.804] surface.layout bounds=440x802 window=true
+[   32.805] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   32.807] runtime.tick
+[   32.821] verified_replay.reveal transaction=3
+[   32.822] terminal.output.replay_barrier_cleared surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   32.822] terminal.output.replay_followup surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   32.822] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   32.822] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   32.840] surface.layout bounds=440x802 window=true
+[   32.840] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   32.841] runtime.tick
+[   32.855] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   32.855] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x33 lastReported=72x33
+[   32.856] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=10 seq=2196
+[   32.872] zoom.report grid=72x33 id=3
+[   32.892] verified_replay.freeze transaction=4 contents=true
+[   32.893] runtime.tick
+[   32.893] runtime.tick
+[   32.893] runtime.tick
+[   32.893] runtime.tick
+[   32.893] runtime.tick
+[   32.893] runtime.tick
+[   32.893] runtime.tick
+[   32.893] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 396.0) frame=(0.0, 0.0, 440.0, 396.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   32.905] surface.layout bounds=440x802 window=true
+[   32.905] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   32.907] runtime.tick
+[   32.922] verified_replay.reveal transaction=4
+[   32.923] terminal.output.replay_barrier_cleared surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   32.923] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   32.923] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=1 reportGrid=72x33 lastReported=72x33
+[   32.938] surface.layout bounds=440x802 window=true
+[   32.938] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   32.939] runtime.tick
+[   32.953] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   32.953] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=1 reportGrid=72x33 lastReported=72x33
+[   33.038] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   33.061] verified_replay.freeze transaction=5 contents=true
+[   33.062] terminal.output.reset surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   33.062] runtime.tick
+[   33.074] surface.layout bounds=440x802 window=true
+[   33.074] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   33.077] sync.input_seq_wait surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 local=0 pending=2231 remote=2231
+[   33.080] terminal.output.drop_replay_barrier surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 count=1
+[   33.088] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   33.170] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=11 seq=2231
+[   33.170] sync.render_grid_stale_theme surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 revision=20
+[   33.170] sync.input_seq_caught_up surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 seq=2231
+[   33.173] runtime.tick
+[   33.173] runtime.tick
+[   33.173] runtime.tick
+[   33.173] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.174] runtime.tick
+[   33.182] sync.input_seq_wait surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 local=2231 pending=2237 remote=2237
+[   33.205] verified_replay.reveal transaction=6
+[   33.205] terminal.output.replay_barrier_cleared surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   33.205] terminal.output.replay_followup surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   33.223] surface.layout bounds=440x802 window=true
+[   33.224] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   33.224] runtime.tick
+[   33.237] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   33.302] terminal.output.drop_replay_barrier surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 count=1
+[   33.313] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=11 seq=2243
+[   33.313] sync.render_grid_stale_theme surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 revision=23
+[   33.341] verified_replay.freeze transaction=7 contents=true
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.342] runtime.tick
+[   33.354] surface.layout bounds=440x802 window=true
+[   33.355] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   33.357] runtime.tick
+[   33.374] verified_replay.reveal transaction=7
+[   33.374] terminal.output.replay_followup_cap_reached surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=1
+[   33.374] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=followup_cap
+[   33.374] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=72x33 pinned=nil renderRect=440x396@0
+[   33.388] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   33.388] surface.layout bounds=440x802 window=true
+[   33.388] runtime.tick
+[   33.390] sync.input_seq_wait surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 local=2243 pending=2249 remote=2249
+[   33.395] sync.input_seq_caught_up surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 seq=2255
+[   33.395] zoom.useNaturalViewSize eff=72x33->nil
+[   33.395] geom container=440x396 scale=3.0 cellPx=18x36 natural=72x33 eff=nil pinned=nil renderRect=440x396@0
+[   33.536] runtime.tick
+[   33.556] runtime.tick
+[   33.603] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=39ms
+[   33.970] runtime.tick
+[   33.970] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 396.0) frame=(0.0, 0.0, 440.0, 396.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   34.343] runtime.tick
+[   35.603] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=1630ms
+[   36.380] runtime.tick
+[   36.380] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 396.0) frame=(0.0, 0.0, 440.0, 396.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   36.428] runtime.tick
+[   36.438] runtime.tick
+[   37.603] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=1158ms
+[   39.603] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=3158ms
+[   41.608] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=5163ms
+[   43.621] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=7175ms
+[   45.621] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=9175ms
+[   46.769] sync.liveness probe_ok silentMs=10241
+[   47.621] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=11175ms
+[   48.510] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[   49.621] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=13175ms
+[   51.622] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=15177ms
+[   53.638] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=17193ms
+[   55.638] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=19193ms
+[   56.988] sync.liveness probe_ok silentMs=10199
+[   57.639] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=21193ms
+[   59.639] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x396 sinceOutput=23193ms
+[   60.176] runtime.tick
+[   60.197] runtime.tick
+[   60.630] runtime.tick
+[   60.654] runtime.tick
+[   60.654] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 396.0) frame=(0.0, 0.0, 440.0, 396.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499653.0, 440.0, 803.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   60.672] runtime.tick
+[   61.032] runtime.tick
+[   61.654] composer.keyboardHideWhilePresented prevKeyboardHeight=318 frOwner=2 proxyIsFR=1
+[   61.669] surface.layout bounds=440x836 window=true
+[   61.669] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   61.679] runtime.tick
+[   61.679] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x396 sinceOutput=1007ms
+[   61.679] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[   61.679] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=72x33
+[   61.679] runtime.tick
+[   61.679] scroll.bar total=36 offset=0 len=36
+[   61.689] surface.layout bounds=440x836 window=true
+[   61.689] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   61.689] runtime.tick
+[   61.705] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[   61.705] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x36 lastReported=72x36
+[   61.822] zoom.report grid=72x36 id=4
+[   61.856] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x36
+[   61.872] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[   61.875] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   61.909] sync.render_grid_stale source=event surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 delivered=3756 frame=3756
+[   61.913] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=79 seq=3756
+[   61.913] sync.render_grid_stale_theme surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 revision=42
+[   62.179] surface.didMoveToWindow window=false
+[   62.179] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   62.187] runtime.tick
+[   62.239] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   62.247] surface.layout bounds=402x700 window=false
+[   62.247] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   62.250] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   62.253] surface.layout bounds=0x0 window=false
+[   62.253] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   62.266] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[   62.286] surface.didMoveToWindow window=true
+[   62.286] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.295] surface.layout bounds=440x952 window=true
+[   62.295] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.297] surface.layout bounds=440x836 window=true
+[   62.297] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.317] surface.layout bounds=440x836 window=true
+[   62.317] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.321] surface.layout bounds=440x836 window=true
+[   62.321] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.324] runtime.tick
+[   62.324] scroll.bar total=17 offset=0 len=17
+[   62.328] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   62.328] surface.layout bounds=440x836 window=true
+[   62.329] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.330] runtime.tick
+[   62.330] scroll.bar total=36 offset=0 len=36
+[   62.330] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[   62.330] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=nil
+[   62.330] runtime.tick
+[   62.330] surface.layout bounds=440x836 window=true
+[   62.330] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.348] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   62.348] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x36
+[   62.348] runtime.tick
+[   62.348] scroll.bar total=61 offset=0 len=61
+[   62.364] surface.layout bounds=440x836 window=true
+[   62.364] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.365] runtime.tick
+[   62.384] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   62.384] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   62.481] zoom.report grid=72x61 id=1
+[   62.481] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   62.493] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[   62.497] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   62.497] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   62.511] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   62.537] terminal.output.drop_replay_barrier surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 count=1
+[   62.537] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=79 seq=3756
+[   62.537] sync.render_grid_stale_theme surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 revision=45
+[   62.577] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   62.580] verified_replay.freeze transaction=1 contents=true
+[   62.580] zoom.applyViewSize eff=nil->72x61
+[   62.580] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   62.581] surface.layout bounds=440x836 window=true
+[   62.581] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.582] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] runtime.tick
+[   62.583] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   62.597] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   62.615] verified_replay.reveal transaction=1
+[   62.615] terminal.output.replay_barrier_cleared surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   62.615] terminal.output.replay_followup surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   62.633] surface.layout bounds=440x836 window=true
+[   62.633] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.633] runtime.tick
+[   62.638] CMUX_REPLAY render_grid surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 spans=79 seq=3756
+[   62.653] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   62.675] terminal.output.drop_replay_barrier surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 count=1
+[   62.695] verified_replay.freeze transaction=2 contents=true
+[   62.695] runtime.tick
+[   62.695] runtime.tick
+[   62.695] runtime.tick
+[   62.695] runtime.tick
+[   62.695] runtime.tick
+[   62.695] runtime.tick
+[   62.695] runtime.tick
+[   62.699] surface.layout bounds=440x836 window=true
+[   62.699] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.701] runtime.tick
+[   62.715] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   62.732] verified_replay.reveal transaction=2
+[   62.733] terminal.output.replay_followup_cap_reached surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=1
+[   62.733] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=followup_cap
+[   62.748] surface.layout bounds=440x836 window=true
+[   62.749] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   62.749] runtime.tick
+[   62.804] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   62.814] zoom.useNaturalViewSize eff=72x61->nil
+[   62.821] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   62.843] runtime.tick
+[   63.539] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   63.549] surface.layout bounds=402x700 window=false
+[   63.549] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   63.552] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   63.555] surface.layout bounds=0x0 window=false
+[   63.556] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   63.579] surface.didMoveToWindow window=false
+[   63.579] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   63.584] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[   63.610] surface.didMoveToWindow window=true
+[   63.610] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   63.619] surface.layout bounds=440x952 window=true
+[   63.619] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   63.622] surface.layout bounds=440x836 window=true
+[   63.622] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   63.644] runtime.tick
+[   63.644] scroll.bar total=17 offset=0 len=17
+[   63.645] runtime.tick
+[   63.646] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   63.646] macupdate.hint caps=39 version=nil hint=nil
+[   63.646] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   63.646] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   63.646] runtime.tick
+[   63.646] scroll.bar total=61 offset=0 len=61
+[   63.646] runtime.tick
+[   63.653] surface.layout bounds=440x836 window=true
+[   63.653] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   63.660] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   63.666] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   63.666] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   63.781] zoom.report grid=72x61 id=1
+[   63.781] CMUX_REPLAY stale_request_failed surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   63.792] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x61
+[   63.797] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   63.797] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   63.819] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=10 seq=732
+[   63.852] verified_replay.freeze transaction=1 contents=true
+[   63.852] zoom.applyViewSize eff=nil->72x61
+[   63.852] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   63.852] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   63.852] runtime.tick
+[   63.852] runtime.tick
+[   63.852] runtime.tick
+[   63.852] runtime.tick
+[   63.852] runtime.tick
+[   63.852] runtime.tick
+[   63.852] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   63.865] surface.layout bounds=440x836 window=true
+[   63.865] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   63.867] runtime.tick
+[   63.881] verified_replay.reveal transaction=1
+[   63.882] terminal.output.replay_barrier_cleared surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   63.882] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   63.894] surface.layout bounds=440x836 window=true
+[   63.894] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   63.894] runtime.tick
+[   63.906] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   64.153] sync.transport=render_grid
+[   64.153] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   64.153] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   64.189] sync.subscribe_ok topics=12 transport=renderGrid
+[   64.215] notif.reconcile delivered=0 handled=0 unread=0
+[   64.264] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=7982A340
+[   64.853] runtime.tick
+[   65.652] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=1799ms
+[   66.701] surface.didMoveToWindow window=false
+[   66.701] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   66.715] runtime.tick
+[   67.658] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   67.668] surface.layout bounds=402x700 window=false
+[   67.668] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   67.672] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   67.675] surface.layout bounds=0x0 window=false
+[   67.675] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   67.687] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[   67.707] surface.didMoveToWindow window=true
+[   67.707] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   67.716] surface.layout bounds=440x952 window=true
+[   67.716] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   67.719] surface.layout bounds=440x836 window=true
+[   67.719] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   67.742] surface.layout bounds=440x836 window=true
+[   67.742] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   67.744] runtime.tick
+[   67.744] scroll.bar total=17 offset=0 len=17
+[   67.745] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   67.745] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   67.745] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   67.745] runtime.tick
+[   67.745] scroll.bar total=61 offset=0 len=61
+[   67.746] macupdate.hint caps=39 version=nil hint=nil
+[   67.754] surface.layout bounds=440x836 window=true
+[   67.754] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   67.758] runtime.tick
+[   67.761] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   67.770] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   67.770] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   67.885] zoom.report grid=72x61 id=1
+[   67.886] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   67.893] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[   67.902] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   67.902] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   67.902] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   67.912] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[   67.923] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[   67.923] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[   67.991] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   68.145] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=FF0AE9C2
+[   68.741] sync.transport=render_grid
+[   68.741] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   68.741] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   68.776] sync.subscribe_ok topics=12 transport=renderGrid
+[   68.810] notif.reconcile delivered=0 handled=0 unread=0
+[   69.748] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[   70.910] surface.didMoveToWindow window=false
+[   70.910] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   70.952] runtime.tick
+[   71.333] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   71.343] surface.layout bounds=402x700 window=false
+[   71.343] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   71.347] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   71.350] surface.layout bounds=0x0 window=false
+[   71.350] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   71.362] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[   71.382] surface.didMoveToWindow window=true
+[   71.382] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   71.392] surface.layout bounds=440x952 window=true
+[   71.392] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   71.395] surface.layout bounds=440x836 window=true
+[   71.395] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   71.416] surface.layout bounds=440x836 window=true
+[   71.416] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   71.418] runtime.tick
+[   71.418] scroll.bar total=17 offset=0 len=17
+[   71.420] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   71.421] macupdate.hint caps=39 version=nil hint=nil
+[   71.421] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   71.421] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   71.421] runtime.tick
+[   71.421] scroll.bar total=61 offset=0 len=61
+[   71.421] runtime.tick
+[   71.428] surface.layout bounds=440x836 window=true
+[   71.428] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   71.433] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   71.445] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   71.445] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   71.562] zoom.report grid=72x61 id=1
+[   71.564] CMUX_REPLAY stale_request_failed surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   71.573] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x61
+[   71.577] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   71.577] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   71.597] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=10 seq=732
+[   71.630] verified_replay.freeze transaction=1 contents=true
+[   71.630] zoom.applyViewSize eff=nil->72x61
+[   71.630] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   71.630] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   71.630] runtime.tick
+[   71.630] runtime.tick
+[   71.630] runtime.tick
+[   71.630] runtime.tick
+[   71.630] runtime.tick
+[   71.630] runtime.tick
+[   71.630] runtime.tick
+[   71.630] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   71.644] surface.layout bounds=440x836 window=true
+[   71.644] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   71.646] runtime.tick
+[   71.662] sync.transport=render_grid
+[   71.662] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   71.662] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   71.670] verified_replay.reveal transaction=1
+[   71.670] terminal.output.replay_barrier_cleared surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   71.670] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   71.678] surface.layout bounds=440x836 window=true
+[   71.678] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   71.678] runtime.tick
+[   71.680] sync.subscribe_ok topics=12 transport=renderGrid
+[   71.692] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   71.699] notif.reconcile delivered=0 handled=0 unread=0
+[   72.230] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=7982A340
+[   72.631] runtime.tick
+[   73.423] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=1792ms
+[   73.560] surface.didMoveToWindow window=false
+[   73.560] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   73.596] runtime.tick
+[   75.850] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   75.860] surface.layout bounds=402x700 window=false
+[   75.860] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   75.864] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   75.866] surface.layout bounds=0x0 window=false
+[   75.866] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   75.878] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[   75.899] surface.didMoveToWindow window=true
+[   75.899] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   75.908] surface.layout bounds=440x952 window=true
+[   75.908] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   75.911] surface.layout bounds=440x836 window=true
+[   75.911] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   75.934] surface.layout bounds=440x836 window=true
+[   75.934] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   75.936] runtime.tick
+[   75.936] scroll.bar total=17 offset=0 len=17
+[   75.937] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   75.938] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   75.938] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   75.938] runtime.tick
+[   75.938] scroll.bar total=61 offset=0 len=61
+[   75.938] macupdate.hint caps=39 version=nil hint=nil
+[   75.944] surface.layout bounds=440x836 window=true
+[   75.944] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   75.948] runtime.tick
+[   75.957] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   75.957] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   76.009] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   76.073] zoom.report grid=72x61 id=1
+[   76.075] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   76.084] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[   76.090] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   76.090] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   76.094] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   76.105] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[   76.114] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[   76.115] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[   76.132] sync.transport=render_grid
+[   76.132] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   76.132] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   76.150] sync.subscribe_ok topics=12 transport=renderGrid
+[   76.171] notif.reconcile delivered=0 handled=0 unread=0
+[   76.178] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   76.565] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=FF0AE9C2
+[   77.406] runtime.tick
+[   78.918] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[   78.951] surface.layout bounds=440x836 window=true
+[   78.951] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   78.957] runtime.tick
+[   78.961] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   79.334] runtime.tick
+[   80.771] surface.layout bounds=440x836 window=true
+[   80.772] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   80.773] runtime.tick
+[   80.787] connection.recovery cancelled trigger=foreground attempt=9AE01ADF-84A2-4877-95FB-61FB71CDC109
+[   82.240] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   82.241] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   82.506] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[   82.537] surface.layout bounds=440x836 window=true
+[   82.537] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   82.544] runtime.tick
+[   82.545] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   82.545] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   82.636] zoom.report grid=72x61 id=2
+[   82.657] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   83.540] runtime.tick
+[   83.558] runtime.tick
+[   83.571] runtime.tick
+[   83.584] runtime.tick
+[   83.596] runtime.tick
+[   83.612] runtime.tick
+[   83.629] runtime.tick
+[   83.656] runtime.tick
+[   83.659] sync.render_grid_stale_theme surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 revision=52
+[   83.662] runtime.tick
+[   83.686] verified_replay.freeze transaction=1 contents=true
+[   83.686] terminal.output.reset surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   83.687] surface.layout bounds=440x836 window=true
+[   83.688] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   83.695] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   83.697] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   83.713] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[   83.727] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[   83.727] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[   84.516] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[   86.316] surface.layout bounds=440x836 window=true
+[   86.316] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   86.333] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   86.516] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[   88.525] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[   89.773] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   89.782] surface.layout bounds=402x700 window=false
+[   89.782] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   89.786] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   89.788] surface.layout bounds=0x0 window=false
+[   89.788] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   89.810] surface.didMoveToWindow window=false
+[   89.810] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   89.816] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[   89.840] surface.didMoveToWindow window=true
+[   89.840] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   89.849] surface.layout bounds=440x952 window=true
+[   89.849] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   89.852] surface.layout bounds=440x836 window=true
+[   89.852] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   89.879] runtime.tick
+[   89.879] scroll.bar total=17 offset=0 len=17
+[   89.881] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   89.882] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   89.882] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   89.882] runtime.tick
+[   89.882] scroll.bar total=61 offset=0 len=61
+[   89.882] runtime.tick
+[   89.891] surface.layout bounds=440x836 window=true
+[   89.891] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   89.908] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   89.908] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   90.025] zoom.report grid=72x61 id=1
+[   90.036] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   90.042] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   90.042] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   90.052] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[   90.067] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[   90.067] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[   90.130] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   90.854] runtime.tick
+[   92.086] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[   92.113] surface.layout bounds=440x836 window=true
+[   92.113] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   92.117] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[   92.118] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   92.475] surface.didMoveToWindow window=false
+[   92.475] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   92.499] runtime.tick
+[   93.428] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   93.438] surface.layout bounds=402x700 window=false
+[   93.438] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   93.442] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   93.445] surface.layout bounds=0x0 window=false
+[   93.445] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   93.457] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[   93.476] runtime.tick
+[   93.476] scroll.bar total=17 offset=0 len=17
+[   93.482] surface.layout bounds=440x952 window=false
+[   93.482] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   93.489] tick.alive win=false suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   93.500] macupdate.hint caps=39 version=nil hint=nil
+[   93.500] geom container=440x864 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[   93.500] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x74 lastReported=nil
+[   93.500] runtime.tick
+[   93.500] runtime.tick
+[   93.500] scroll.bar total=74 offset=0 len=74
+[   93.551] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   93.560] surface.layout bounds=402x700 window=false
+[   93.564] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   93.564] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   93.567] surface.layout bounds=0x0 window=false
+[   93.567] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   93.580] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[   93.604] surface.layout bounds=440x952 window=false
+[   93.604] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   93.609] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   93.609] runtime.tick
+[   93.609] scroll.bar total=17 offset=0 len=17
+[   93.622] runtime.tick
+[   93.632] macupdate.hint caps=39 version=nil hint=nil
+[   93.644] tick.alive win=false suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   93.653] surface.didMoveToWindow window=true
+[   93.653] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   93.653] geom.deferShrink container=440x830 applied=440x864
+[   93.664] surface.didMoveToWindow window=true
+[   93.664] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   93.675] surface.didMoveToWindow window=false
+[   93.675] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   93.676] surface.layout bounds=440x836 window=true
+[   93.676] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   93.702] geom container=440x864 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[   93.702] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x74 lastReported=nil
+[   93.702] runtime.tick
+[   93.702] geom container=440x830 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[   93.702] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x71 lastReported=72x74
+[   93.702] runtime.tick
+[   93.702] scroll.bar total=74 offset=0 len=74
+[   93.703] geom.deferShrink container=440x714 applied=440x864
+[   93.703] surface.layout bounds=440x836 window=true
+[   93.703] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   93.706] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[   93.706] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x74
+[   93.706] runtime.tick
+[   93.721] geom.deferShrink container=440x714 applied=440x864
+[   93.722] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[   93.722] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   93.750] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   93.838] zoom.report grid=72x61 id=1
+[   93.838] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   93.895] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[   93.904] geom.deferShrink container=440x714 applied=440x864
+[   93.904] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[   93.904] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   93.938] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   93.938] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   93.938] runtime.tick
+[   93.938] runtime.tick
+[   93.938] scroll.bar total=61 offset=0 len=61
+[   93.951] surface.layout bounds=440x836 window=true
+[   93.951] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   93.952] runtime.tick
+[   93.963] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   93.963] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   93.982] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[   93.998] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[   94.020] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[   94.020] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[   94.058] zoom.report grid=72x61 id=2
+[   94.063] sync.transport=render_grid
+[   94.063] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   94.063] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   94.084] sync.subscribe_ok topics=12 transport=renderGrid
+[   94.094] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   94.104] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=FF0AE9C2
+[   94.108] notif.reconcile delivered=0 handled=0 unread=0
+[   95.588] surface.didMoveToWindow window=false
+[   95.588] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   95.637] runtime.tick
+[   96.167] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   96.177] surface.layout bounds=402x700 window=false
+[   96.177] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   96.181] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   96.184] surface.layout bounds=0x0 window=false
+[   96.184] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   96.196] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[   96.216] surface.didMoveToWindow window=true
+[   96.216] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   96.226] surface.layout bounds=440x952 window=true
+[   96.226] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   96.229] surface.layout bounds=440x836 window=true
+[   96.229] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   96.251] surface.layout bounds=440x836 window=true
+[   96.252] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   96.253] runtime.tick
+[   96.254] scroll.bar total=17 offset=0 len=17
+[   96.255] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[   96.256] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   96.256] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[   96.256] runtime.tick
+[   96.256] scroll.bar total=61 offset=0 len=61
+[   96.256] macupdate.hint caps=39 version=nil hint=nil
+[   96.262] surface.layout bounds=440x836 window=true
+[   96.262] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   96.267] runtime.tick
+[   96.278] macupdate.hint caps=39 version=0.64.22 hint=nil
+[   96.278] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   96.278] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   96.392] zoom.report grid=72x61 id=1
+[   96.392] CMUX_REPLAY stale_request_failed surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   96.454] sync.transport=render_grid
+[   96.454] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[   96.454] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[   96.464] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x61
+[   96.477] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   96.478] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[   96.484] sync.subscribe_ok topics=12 transport=renderGrid
+[   96.505] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[   96.538] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=10 seq=732
+[   96.562] notif.reconcile delivered=0 handled=0 unread=0
+[   96.581] verified_replay.freeze transaction=1 contents=true
+[   96.581] zoom.applyViewSize eff=nil->72x61
+[   96.581] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   96.581] runtime.tick
+[   96.581] runtime.tick
+[   96.581] runtime.tick
+[   96.581] runtime.tick
+[   96.581] runtime.tick
+[   96.581] runtime.tick
+[   96.581] runtime.tick
+[   96.581] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 714.0) frame=(0.0, 0.0, 440.0, 714.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 836.0) frame=(0.0, 0.0, 440.0, 836.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[   96.599] surface.layout bounds=440x836 window=true
+[   96.599] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   96.605] runtime.tick
+[   96.613] verified_replay.reveal transaction=1
+[   96.613] terminal.output.replay_barrier_cleared surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[   96.613] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   96.631] surface.layout bounds=440x836 window=true
+[   96.631] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   96.631] runtime.tick
+[   96.646] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   96.756] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=7982A340
+[   96.837] runtime.tick
+[   98.169] surface.layout bounds=440x836 window=true
+[   98.169] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   98.176] runtime.tick
+[   98.177] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=72x61 pinned=nil renderRect=440x714@0
+[   98.271] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=1689ms
+[   99.865] surface.didMoveToWindow window=false
+[   99.866] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   99.908] runtime.tick
+[   99.940] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[   99.949] surface.layout bounds=402x700 window=false
+[   99.949] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   99.952] composer.bandHeightClamped measured=52.0 clamped=0.0
+[   99.955] surface.layout bounds=0x0 window=false
+[   99.955] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[   99.968] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[   99.989] surface.didMoveToWindow window=true
+[   99.989] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[   99.999] surface.layout bounds=440x952 window=true
+[   99.999] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  100.002] surface.layout bounds=440x836 window=true
+[  100.002] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  100.025] surface.layout bounds=440x836 window=true
+[  100.025] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  100.027] runtime.tick
+[  100.027] scroll.bar total=17 offset=0 len=17
+[  100.028] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  100.029] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  100.029] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  100.029] runtime.tick
+[  100.029] scroll.bar total=61 offset=0 len=61
+[  100.029] runtime.tick
+[  100.030] macupdate.hint caps=39 version=nil hint=nil
+[  100.039] surface.layout bounds=440x836 window=true
+[  100.039] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  100.055] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  100.055] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  100.148] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  100.171] zoom.report grid=72x61 id=1
+[  100.172] CMUX_REPLAY stale_request_failed surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  100.209] sync.transport=render_grid
+[  100.209] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  100.209] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  100.239] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x36
+[  100.239] sync.subscribe_ok topics=12 transport=renderGrid
+[  100.258] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  100.258] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  100.258] notif.reconcile delivered=0 handled=0 unread=0
+[  100.269] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  100.276] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  100.280] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  100.280] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  100.816] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[  102.037] runtime.tick
+[  105.026] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[  105.054] surface.layout bounds=440x836 window=true
+[  105.054] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  105.059] runtime.tick
+[  105.060] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  105.234] runtime.tick
+[  106.887] surface.layout bounds=440x836 window=true
+[  106.888] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  106.893] runtime.tick
+[  106.893] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  107.030] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  109.031] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  109.393] surface.didMoveToWindow window=false
+[  109.393] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  109.438] runtime.tick
+[  109.669] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  109.680] surface.layout bounds=402x700 window=false
+[  109.680] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  109.684] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  109.687] surface.layout bounds=0x0 window=false
+[  109.687] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  109.701] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[  109.722] surface.didMoveToWindow window=true
+[  109.722] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  109.732] surface.layout bounds=440x952 window=true
+[  109.732] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  109.735] surface.layout bounds=440x836 window=true
+[  109.735] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  109.759] surface.layout bounds=440x836 window=true
+[  109.759] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  109.761] runtime.tick
+[  109.761] scroll.bar total=17 offset=0 len=17
+[  109.763] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  109.765] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  109.765] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  109.765] runtime.tick
+[  109.765] scroll.bar total=61 offset=0 len=61
+[  109.765] runtime.tick
+[  109.765] surface.layout bounds=440x836 window=true
+[  109.765] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  109.781] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  109.781] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  109.897] zoom.report grid=72x61 id=1
+[  109.906] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  109.914] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  109.914] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  109.919] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  109.928] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  109.928] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  109.999] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  110.137] sync.liveness probe_ok silentMs=10099
+[  111.769] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  113.768] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  115.769] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  116.299] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[  117.769] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  118.991] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  119.002] surface.layout bounds=402x700 window=false
+[  119.002] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  119.006] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  119.008] surface.layout bounds=0x0 window=false
+[  119.008] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  119.026] surface.didMoveToWindow window=false
+[  119.026] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  119.033] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[  119.057] surface.didMoveToWindow window=true
+[  119.057] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.066] surface.layout bounds=440x952 window=true
+[  119.066] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.069] surface.layout bounds=440x836 window=true
+[  119.069] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.096] runtime.tick
+[  119.096] scroll.bar total=17 offset=0 len=17
+[  119.097] runtime.tick
+[  119.101] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  119.101] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  119.101] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  119.101] runtime.tick
+[  119.101] scroll.bar total=61 offset=0 len=61
+[  119.101] runtime.tick
+[  119.102] surface.layout bounds=440x836 window=true
+[  119.102] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.119] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  119.119] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  119.227] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  119.227] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  119.287] surface.layout bounds=440x802 window=true
+[  119.287] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.297] surface.layout bounds=440x802 window=true
+[  119.297] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.298] runtime.tick
+[  119.302] geom.deferShrink container=440x680 applied=440x714
+[  119.302] zoom.report grid=72x61 id=1
+[  119.303] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  119.304] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=1 reportGrid=72x58 lastReported=72x61
+[  119.322] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  119.331] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  119.336] geom.deferShrink container=440x680 applied=440x714
+[  119.336] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  119.336] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  119.345] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  119.345] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  119.386] geom.deferShrink container=440x680 applied=440x714
+[  119.386] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  119.386] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  119.436] zoom.report grid=72x58 id=2
+[  119.518] terminal.output.replay_barrier_cleared_viewport_unchanged surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  119.521] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  119.521] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  119.521] runtime.tick
+[  119.521] scroll.bar total=58 offset=0 len=58
+[  119.521] runtime.tick
+[  119.533] surface.layout bounds=440x802 window=true
+[  119.533] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.536] runtime.tick
+[  119.547] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  119.547] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  119.612] surface.layout bounds=440x802 window=true
+[  119.612] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.616] runtime.tick
+[  119.618] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  119.618] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  119.673] zoom.report grid=72x58 id=3
+[  119.694] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x58
+[  119.707] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  119.708] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  119.758] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=82 seq=2884
+[  119.820] verified_replay.freeze transaction=1 contents=true
+[  119.820] zoom.applyViewSize eff=nil->72x58
+[  119.820] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=72x58 pinned=nil renderRect=440x680@0
+[  119.820] runtime.tick
+[  119.820] runtime.tick
+[  119.820] runtime.tick
+[  119.820] runtime.tick
+[  119.820] runtime.tick
+[  119.820] runtime.tick
+[  119.820] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 680.0) frame=(0.0, 0.0, 440.0, 680.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[  119.824] surface.layout bounds=440x802 window=true
+[  119.824] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.826] runtime.tick
+[  119.842] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=72x58 pinned=nil renderRect=440x680@0
+[  119.857] verified_replay.reveal transaction=1
+[  119.857] terminal.output.replay_barrier_cleared surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  119.873] surface.layout bounds=440x802 window=true
+[  119.874] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  119.874] runtime.tick
+[  119.890] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=72x58 pinned=nil renderRect=440x680@0
+[  120.821] runtime.tick
+[  121.107] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x680 sinceOutput=1286ms
+[  121.384] runtime.tick
+[  121.406] zoom.useNaturalViewSize eff=72x58->nil
+[  121.407] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  121.407] runtime.tick
+[  121.408] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 680.0) frame=(0.0, 0.0, 440.0, 680.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[  122.965] runtime.tick
+[  122.965] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 680.0) frame=(0.0, 0.0, 440.0, 680.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[  123.139] composer.keyboardHideWhilePresented prevKeyboardHeight=318 frOwner=2 proxyIsFR=1
+[  123.155] surface.layout bounds=440x836 window=true
+[  123.155] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  123.166] runtime.tick
+[  123.166] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x680 sinceOutput=194ms
+[  123.167] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  123.167] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=72x58
+[  123.167] runtime.tick
+[  123.167] scroll.bar total=36 offset=0 len=36
+[  123.174] surface.layout bounds=440x836 window=true
+[  123.174] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  123.175] runtime.tick
+[  123.190] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x36 lastReported=72x36
+[  123.190] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  123.307] zoom.report grid=72x36 id=4
+[  123.346] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x36
+[  123.357] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  123.362] sync.render_grid_stale source=event surface=943A4094-57C7-4BD7-BB9A-13589AEE707B delivered=4427 frame=4427
+[  123.392] sync.render_grid_waiting_for_baseline source=event surface=943A4094-57C7-4BD7-BB9A-13589AEE707B seq=5830
+[  123.392] terminal.output.drop_replay_barrier surface=943A4094-57C7-4BD7-BB9A-13589AEE707B count=1
+[  123.392] CMUX_REPLAY render_grid surface=943A4094-57C7-4BD7-BB9A-13589AEE707B spans=32 seq=4427
+[  123.669] surface.didMoveToWindow window=false
+[  123.669] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  123.684] runtime.tick
+[  123.844] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  123.853] surface.layout bounds=402x700 window=false
+[  123.853] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  123.856] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  123.859] surface.layout bounds=0x0 window=false
+[  123.859] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  123.873] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[  123.893] surface.didMoveToWindow window=true
+[  123.893] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  123.903] surface.layout bounds=440x952 window=true
+[  123.904] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  123.906] surface.layout bounds=440x836 window=true
+[  123.906] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  123.931] surface.layout bounds=440x836 window=true
+[  123.931] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  123.933] runtime.tick
+[  123.933] scroll.bar total=17 offset=0 len=17
+[  123.935] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  123.936] macupdate.hint caps=39 version=nil hint=nil
+[  123.936] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  123.936] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  123.936] runtime.tick
+[  123.936] scroll.bar total=61 offset=0 len=61
+[  123.936] runtime.tick
+[  123.950] surface.layout bounds=440x836 window=true
+[  123.950] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  123.954] runtime.tick
+[  123.965] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  123.965] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  123.969] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  124.065] zoom.report grid=72x61 id=1
+[  124.065] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  124.076] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[  124.084] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  124.084] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  124.085] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[  124.096] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[  124.106] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[  124.106] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[  124.118] sync.transport=render_grid
+[  124.118] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  124.118] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  124.136] sync.subscribe_ok topics=12 transport=renderGrid
+[  124.159] notif.reconcile delivered=0 handled=0 unread=0
+[  124.168] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  124.574] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=FF0AE9C2
+[  125.936] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  126.547] runtime.tick
+[  127.819] surface.layout bounds=440x836 window=true
+[  127.819] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  127.825] runtime.tick
+[  127.825] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  127.936] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  129.937] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  131.937] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  133.937] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  133.950] sync.liveness probe_ok silentMs=10002
+[  135.937] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  137.937] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  139.938] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  139.961] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[  141.938] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  143.938] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  143.951] sync.liveness probe_ok silentMs=9988
+[  145.938] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  147.938] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  149.939] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  151.256] runtime.tick
+[  153.415] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  153.415] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  153.677] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[  153.706] surface.layout bounds=440x836 window=true
+[  153.706] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  153.713] runtime.tick
+[  153.714] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  153.714] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  153.796] sync.resync reason=connectionRecovery.foreground restart=true surfaces=3
+[  153.796] CMUX_REPLAY authoritative_resync reason=connectionRecovery.foreground surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  153.796] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  153.796] CMUX_REPLAY authoritative_resync reason=connectionRecovery.foreground surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  153.796] CMUX_REPLAY authoritative_resync reason=connectionRecovery.foreground surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  153.796] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  153.806] zoom.report grid=72x61 id=2
+[  153.825] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[  153.839] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  153.863] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  153.883] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[  153.928] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[  153.928] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[  154.238] sync.transport=render_grid
+[  154.292] sync.subscribe_ok topics=12 transport=renderGrid
+[  154.340] notif.reconcile delivered=0 handled=0 unread=0
+[  155.689] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  157.081] surface.didMoveToWindow window=false
+[  157.081] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  157.123] runtime.tick
+[  157.220] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  157.229] surface.layout bounds=402x700 window=false
+[  157.229] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  157.233] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  157.235] surface.layout bounds=0x0 window=false
+[  157.235] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  157.253] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[  157.275] surface.didMoveToWindow window=true
+[  157.275] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  157.286] surface.layout bounds=440x952 window=true
+[  157.286] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  157.289] surface.layout bounds=440x836 window=true
+[  157.290] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  157.317] surface.layout bounds=440x836 window=true
+[  157.317] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  157.319] runtime.tick
+[  157.319] scroll.bar total=17 offset=0 len=17
+[  157.321] macupdate.hint caps=39 version=nil hint=nil
+[  157.327] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  157.331] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  157.331] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  157.331] runtime.tick
+[  157.331] scroll.bar total=61 offset=0 len=61
+[  157.331] runtime.tick
+[  157.332] surface.layout bounds=440x836 window=true
+[  157.332] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  157.343] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  157.344] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  157.375] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  157.460] zoom.report grid=72x61 id=1
+[  157.461] CMUX_REPLAY stale_request_failed surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  157.470] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x36
+[  157.477] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  157.477] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  157.480] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  157.492] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  157.509] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  157.509] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  157.509] sync.transport=render_grid
+[  157.509] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  157.509] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  157.559] sync.subscribe_ok topics=12 transport=renderGrid
+[  157.580] notif.reconcile delivered=0 handled=0 unread=0
+[  157.583] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  157.944] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[  158.748] runtime.tick
+[  167.386] sync.liveness probe_ok silentMs=10019
+[  169.124] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[  169.148] surface.layout bounds=440x836 window=true
+[  169.148] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  169.153] runtime.tick
+[  169.153] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  170.112] surface.didMoveToWindow window=false
+[  170.112] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  170.140] runtime.tick
+[  170.998] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  171.009] surface.layout bounds=402x700 window=false
+[  171.009] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  171.013] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  171.015] surface.layout bounds=0x0 window=false
+[  171.015] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  171.025] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[  171.044] runtime.tick
+[  171.044] scroll.bar total=17 offset=0 len=17
+[  171.049] surface.layout bounds=440x952 window=false
+[  171.049] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  171.055] tick.alive win=false suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  171.064] geom container=440x864 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[  171.064] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x74 lastReported=nil
+[  171.064] macupdate.hint caps=39 version=nil hint=nil
+[  171.064] runtime.tick
+[  171.064] runtime.tick
+[  171.064] scroll.bar total=74 offset=0 len=74
+[  171.090] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  171.120] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  171.128] surface.layout bounds=402x700 window=false
+[  171.128] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  171.131] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  171.134] surface.layout bounds=0x0 window=false
+[  171.134] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  171.143] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[  171.157] surface.layout bounds=440x952 window=false
+[  171.157] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  171.160] runtime.tick
+[  171.160] scroll.bar total=17 offset=0 len=17
+[  171.162] runtime.tick
+[  171.162] tick.alive win=false suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  171.163] geom container=440x864 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[  171.163] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x74 lastReported=nil
+[  171.163] runtime.tick
+[  171.171] macupdate.hint caps=39 version=nil hint=nil
+[  171.195] surface.didMoveToWindow window=true
+[  171.195] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.195] geom.deferShrink container=440x830 applied=440x864
+[  171.206] surface.didMoveToWindow window=true
+[  171.206] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.216] surface.didMoveToWindow window=false
+[  171.216] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  171.216] surface.layout bounds=440x836 window=true
+[  171.216] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.239] runtime.tick
+[  171.239] scroll.bar total=74 offset=0 len=74
+[  171.239] geom container=440x830 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[  171.239] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x71 lastReported=72x74
+[  171.241] geom.deferShrink container=440x714 applied=440x864
+[  171.242] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[  171.242] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x74
+[  171.253] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  171.279] geom.deferShrink container=440x714 applied=440x864
+[  171.281] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[  171.281] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  171.334] surface.layout bounds=440x802 window=true
+[  171.334] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.347] surface.layout bounds=440x802 window=true
+[  171.348] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.350] runtime.tick
+[  171.357] geom.deferShrink container=440x680 applied=440x864
+[  171.360] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@-184
+[  171.360] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x61
+[  171.490] zoom.report grid=72x58 id=1
+[  171.491] CMUX_REPLAY stale_request_failed surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  171.507] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x58
+[  171.507] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  171.507] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  171.507] runtime.tick
+[  171.507] scroll.bar total=58 offset=0 len=58
+[  171.507] runtime.tick
+[  171.525] surface.layout bounds=440x802 window=true
+[  171.525] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.526] runtime.tick
+[  171.541] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  171.541] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  171.594] CMUX_REPLAY retry_after_failure surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempt=1
+[  171.594] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=7982A340
+[  171.632] zoom.report grid=72x58 id=2
+[  171.641] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=10 seq=732
+[  171.666] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  171.745] surface.layout bounds=440x802 window=true
+[  171.745] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.746] runtime.tick
+[  171.746] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  171.862] verified_replay.freeze transaction=1 contents=true
+[  171.862] zoom.applyViewSize eff=nil->72x58
+[  171.863] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=72x58 pinned=nil renderRect=440x680@0
+[  171.863] runtime.tick
+[  171.863] runtime.tick
+[  171.863] runtime.tick
+[  171.864] runtime.tick
+[  171.864] runtime.tick
+[  171.864] surface.layers reason=processOutput host=CAMetalLayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) contentsScale=3.0 children=[0:CALayer bounds=(0.0, 0.0, 440.0, 680.0) frame=(0.0, 0.0, 440.0, 680.0) hidden=true contents=false scale=1.0 | 1:CALayer bounds=(0.0, 499650.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0 | 2:CALayer bounds=(0.0, 0.0, 440.0, 1.0) frame=(0.0, 0.0, 440.0, 1.0) hidden=false contents=false scale=1.0 | 3:CALayer bounds=(0.0, 0.0, 440.0, 802.0) frame=(0.0, 0.0, 440.0, 802.0) hidden=false contents=false scale=1.0] fallbackHidden=true fallbackChars=0
+[  171.874] surface.layout bounds=440x802 window=true
+[  171.875] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  171.878] runtime.tick
+[  171.883] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=72x58 pinned=nil renderRect=440x680@0
+[  171.900] CMUX_REPLAY retry_after_failure surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempt=2
+[  171.900] terminal.output.reset_replay_ack surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  171.962] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=10 seq=732
+[  171.964] runtime.tick
+[  171.964] runtime.tick
+[  171.964] runtime.tick
+[  171.964] runtime.tick
+[  171.964] runtime.tick
+[  172.000] verified_replay.reveal transaction=2
+[  172.001] terminal.output.replay_barrier_cleared surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  172.018] surface.layout bounds=440x802 window=true
+[  172.018] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  172.019] runtime.tick
+[  172.033] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=72x58 pinned=nil renderRect=440x680@0
+[  172.111] sync.transport=render_grid
+[  172.111] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  172.111] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  172.218] sync.subscribe_ok topics=12 transport=renderGrid
+[  172.255] notif.reconcile delivered=0 handled=0 unread=0
+[  172.762] composer.keyboardHideWhilePresented prevKeyboardHeight=318 frOwner=2 proxyIsFR=1
+[  172.777] surface.layout bounds=440x836 window=true
+[  172.777] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  172.787] runtime.tick
+[  172.788] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=72x58 pinned=nil renderRect=440x430@0
+[  172.788] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=72x58
+[  172.788] runtime.tick
+[  172.788] runtime.tick
+[  172.788] scroll.bar total=36 offset=0 len=36
+[  172.799] surface.layout bounds=440x836 window=true
+[  172.799] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  172.816] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=72x58 pinned=nil renderRect=440x430@0
+[  172.816] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x36 lastReported=72x36
+[  172.949] zoom.report grid=72x36 id=3
+[  172.965] runtime.tick
+[  173.009] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x36
+[  173.009] zoom.applyViewSize eff=72x58->72x36
+[  173.016] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=72x36 pinned=nil renderRect=440x430@0
+[  173.020] CMUX_REPLAY retry_after_failure surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempt=1
+[  173.048] terminal.output.drop_replay_barrier surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA count=1
+[  173.144] CMUX_REPLAY render_grid surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA spans=10 seq=1464
+[  173.174] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x430 sinceOutput=1209ms
+[  173.300] surface.didMoveToWindow window=false
+[  173.300] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  173.316] runtime.tick
+[  173.580] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  173.591] surface.layout bounds=402x700 window=false
+[  173.591] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  173.594] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  173.597] surface.layout bounds=0x0 window=false
+[  173.597] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  173.610] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[  173.630] surface.didMoveToWindow window=true
+[  173.631] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  173.640] surface.layout bounds=440x952 window=true
+[  173.640] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  173.643] surface.layout bounds=440x836 window=true
+[  173.643] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  173.668] surface.layout bounds=440x836 window=true
+[  173.668] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  173.670] runtime.tick
+[  173.670] scroll.bar total=17 offset=0 len=17
+[  173.671] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  173.672] macupdate.hint caps=39 version=nil hint=nil
+[  173.672] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  173.672] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  173.672] runtime.tick
+[  173.672] scroll.bar total=61 offset=0 len=61
+[  173.672] runtime.tick
+[  173.679] surface.layout bounds=440x836 window=true
+[  173.679] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  173.682] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  173.692] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  173.692] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  173.807] zoom.report grid=72x61 id=1
+[  173.808] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  173.825] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[  173.836] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[  173.844] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  173.844] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  173.848] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[  173.853] sync.transport=render_grid
+[  173.853] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  173.853] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  173.860] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[  173.860] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[  173.868] sync.subscribe_ok topics=12 transport=renderGrid
+[  173.884] notif.reconcile delivered=0 handled=0 unread=0
+[  173.908] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  174.211] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=FF0AE9C2
+[  175.709] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  176.288] surface.didMoveToWindow window=false
+[  176.288] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  176.342] runtime.tick
+[  176.484] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  176.494] surface.layout bounds=402x700 window=false
+[  176.494] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  176.497] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  176.500] surface.layout bounds=0x0 window=false
+[  176.500] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  176.513] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[  176.534] surface.didMoveToWindow window=true
+[  176.534] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  176.544] surface.layout bounds=440x952 window=true
+[  176.544] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  176.547] surface.layout bounds=440x836 window=true
+[  176.547] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  176.573] surface.layout bounds=440x836 window=true
+[  176.573] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  176.575] runtime.tick
+[  176.575] scroll.bar total=17 offset=0 len=17
+[  176.577] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  176.578] runtime.tick
+[  176.578] scroll.bar total=61 offset=0 len=61
+[  176.578] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  176.578] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  176.591] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  176.591] surface.layout bounds=440x836 window=true
+[  176.592] runtime.tick
+[  176.608] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  176.608] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  176.708] zoom.report grid=72x61 id=1
+[  176.721] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[  176.725] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  176.725] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  176.734] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[  176.748] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[  176.748] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[  176.809] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  178.579] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  179.374] surface.didMoveToWindow window=false
+[  179.374] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  179.416] runtime.tick
+[  179.448] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  179.456] surface.layout bounds=402x700 window=false
+[  179.456] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  179.460] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  179.462] surface.layout bounds=0x0 window=false
+[  179.462] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  179.476] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[  179.497] surface.didMoveToWindow window=true
+[  179.497] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  179.507] surface.layout bounds=440x952 window=true
+[  179.507] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  179.509] surface.layout bounds=440x836 window=true
+[  179.509] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  179.533] surface.layout bounds=440x836 window=true
+[  179.533] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  179.535] runtime.tick
+[  179.535] scroll.bar total=17 offset=0 len=17
+[  179.537] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  179.538] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  179.538] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  179.538] runtime.tick
+[  179.538] scroll.bar total=61 offset=0 len=61
+[  179.538] runtime.tick
+[  179.538] macupdate.hint caps=39 version=nil hint=nil
+[  179.546] surface.layout bounds=440x836 window=true
+[  179.546] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  179.561] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  179.566] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  179.566] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  179.679] zoom.report grid=72x61 id=1
+[  179.679] CMUX_REPLAY stale_request_failed surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  179.690] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x36
+[  179.696] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  179.696] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  179.699] CMUX_REPLAY retry_after_failure surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempt=1
+[  179.711] CMUX_REPLAY retry_after_failure surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempt=2
+[  179.721] CMUX_REPLAY retry_exhausted surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempts=2
+[  179.721] terminal.output.replay_barrier_fail_open surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA reason=retry_exhausted
+[  179.739] sync.transport=render_grid
+[  179.739] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  179.739] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  179.783] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  179.815] sync.subscribe_ok topics=12 transport=renderGrid
+[  179.837] notif.reconcile delivered=0 handled=0 unread=0
+[  179.891] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=7982A340
+[  180.548] runtime.tick
+[  181.751] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[  181.764] surface.layout bounds=440x836 window=true
+[  181.764] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  181.769] runtime.tick
+[  181.770] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  182.083] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  182.092] surface.layout bounds=402x700 window=false
+[  182.093] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  182.096] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  182.099] surface.layout bounds=0x0 window=false
+[  182.099] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  182.118] surface.didMoveToWindow window=false
+[  182.118] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  182.123] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[  182.151] surface.didMoveToWindow window=true
+[  182.151] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.160] surface.layout bounds=440x952 window=true
+[  182.160] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.163] surface.layout bounds=440x836 window=true
+[  182.163] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.189] runtime.tick
+[  182.189] scroll.bar total=17 offset=0 len=17
+[  182.189] runtime.tick
+[  182.192] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  182.193] macupdate.hint caps=39 version=nil hint=nil
+[  182.193] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  182.193] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  182.193] runtime.tick
+[  182.193] scroll.bar total=61 offset=0 len=61
+[  182.193] runtime.tick
+[  182.200] surface.layout bounds=440x836 window=true
+[  182.200] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.212] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  182.212] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  182.222] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  182.239] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  182.239] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  182.291] surface.layout bounds=440x802 window=true
+[  182.291] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.297] surface.layout bounds=440x802 window=true
+[  182.297] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.300] geom.deferShrink container=440x680 applied=440x714
+[  182.301] runtime.tick
+[  182.301] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  182.301] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x61
+[  182.429] zoom.report grid=72x58 id=1
+[  182.431] CMUX_REPLAY stale_request_failed surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  182.440] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x36
+[  182.446] geom.deferShrink container=440x680 applied=440x714
+[  182.446] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  182.446] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  182.454] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  182.466] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  182.479] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  182.480] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  182.480] runtime.tick
+[  182.480] scroll.bar total=58 offset=0 len=58
+[  182.480] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  182.480] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  182.480] runtime.tick
+[  182.496] surface.layout bounds=440x802 window=true
+[  182.496] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.498] runtime.tick
+[  182.513] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  182.513] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  182.608] zoom.report grid=72x58 id=2
+[  182.628] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  182.715] surface.layout bounds=440x802 window=true
+[  182.716] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  182.717] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[  182.718] runtime.tick
+[  182.721] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  182.964] sync.transport=render_grid
+[  182.964] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  182.964] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  182.998] sync.subscribe_ok topics=12 transport=renderGrid
+[  183.030] notif.reconcile delivered=0 handled=0 unread=0
+[  183.715] composer.keyboardHideWhilePresented prevKeyboardHeight=318 frOwner=2 proxyIsFR=1
+[  183.730] surface.layout bounds=440x836 window=true
+[  183.730] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  183.742] runtime.tick
+[  183.743] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  183.743] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=72x58
+[  183.743] runtime.tick
+[  183.743] scroll.bar total=36 offset=0 len=36
+[  183.759] surface.layout bounds=440x836 window=true
+[  183.759] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  183.760] runtime.tick
+[  183.775] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  183.775] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x36 lastReported=72x36
+[  183.875] zoom.report grid=72x36 id=3
+[  183.887] terminal.output.replay_barrier_cleared_viewport_unchanged surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  183.892] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  184.198] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x430 sinceOutput=-1ms
+[  184.271] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  184.281] surface.layout bounds=402x700 window=false
+[  184.281] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  184.285] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  184.288] surface.layout bounds=0x0 window=false
+[  184.288] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  184.312] surface.didMoveToWindow window=false
+[  184.312] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  184.318] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[  184.342] surface.didMoveToWindow window=true
+[  184.342] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.352] surface.layout bounds=440x952 window=true
+[  184.352] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.355] surface.layout bounds=440x836 window=true
+[  184.355] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.380] runtime.tick
+[  184.380] scroll.bar total=17 offset=0 len=17
+[  184.380] runtime.tick
+[  184.390] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  184.393] surface.layout bounds=440x836 window=true
+[  184.393] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.394] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  184.394] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=nil
+[  184.394] runtime.tick
+[  184.394] scroll.bar total=36 offset=0 len=36
+[  184.394] runtime.tick
+[  184.396] surface.layout bounds=440x836 window=true
+[  184.396] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.413] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  184.413] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x36
+[  184.413] runtime.tick
+[  184.413] scroll.bar total=61 offset=0 len=61
+[  184.434] surface.layout bounds=440x836 window=true
+[  184.434] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.438] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  184.438] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  184.438] runtime.tick
+[  184.488] surface.layout bounds=440x802 window=true
+[  184.488] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.499] surface.layout bounds=440x802 window=true
+[  184.499] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.501] geom.deferShrink container=440x680 applied=440x714
+[  184.502] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  184.502] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x61
+[  184.629] zoom.report grid=72x58 id=1
+[  184.630] CMUX_REPLAY stale_request_failed surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  184.645] terminal.output.viewport_replay_after_viewport_unchanged surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  184.646] geom.deferShrink container=440x680 applied=440x714
+[  184.646] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  184.646] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  184.654] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  184.667] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  184.680] runtime.tick
+[  184.680] scroll.bar total=58 offset=0 len=58
+[  184.680] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  184.680] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  184.680] runtime.tick
+[  184.680] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  184.680] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  184.696] surface.layout bounds=440x802 window=true
+[  184.696] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.698] runtime.tick
+[  184.713] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  184.713] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  184.809] zoom.report grid=72x58 id=2
+[  184.845] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  184.892] surface.layout bounds=440x802 window=true
+[  184.892] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  184.895] runtime.tick
+[  184.896] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  186.392] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x680 sinceOutput=-1ms
+[  187.052] composer.keyboardHideWhilePresented prevKeyboardHeight=318 frOwner=2 proxyIsFR=1
+[  187.067] surface.layout bounds=440x836 window=true
+[  187.067] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  187.078] runtime.tick
+[  187.079] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  187.079] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=72x58
+[  187.079] runtime.tick
+[  187.079] scroll.bar total=36 offset=0 len=36
+[  187.093] surface.layout bounds=440x836 window=true
+[  187.093] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  187.093] runtime.tick
+[  187.109] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  187.109] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x36 lastReported=72x36
+[  187.217] zoom.report grid=72x36 id=3
+[  187.340] terminal.output.replay_barrier_cleared_viewport_unchanged surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  187.343] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  187.568] surface.didMoveToWindow window=false
+[  187.568] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  187.605] runtime.tick
+[  188.434] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  188.444] surface.layout bounds=402x700 window=false
+[  188.444] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  188.448] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  188.451] surface.layout bounds=0x0 window=false
+[  188.451] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  188.460] changes.hint eval ws=FF0AE9C2 capable=true files=-1 dismissed=false shown=false
+[  188.479] runtime.tick
+[  188.479] scroll.bar total=17 offset=0 len=17
+[  188.485] surface.layout bounds=440x952 window=false
+[  188.485] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  188.492] tick.alive win=false suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  188.502] macupdate.hint caps=39 version=nil hint=nil
+[  188.502] geom container=440x864 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[  188.502] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x74 lastReported=nil
+[  188.502] runtime.tick
+[  188.502] runtime.tick
+[  188.502] scroll.bar total=74 offset=0 len=74
+[  188.544] surface.didMoveToWindow window=true
+[  188.544] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  188.559] surface.layout bounds=440x836 window=true
+[  188.559] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  188.578] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  188.579] runtime.tick
+[  188.583] geom.deferShrink container=440x714 applied=440x864
+[  188.586] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x74 eff=nil pinned=nil renderRect=440x864@0
+[  188.586] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x74
+[  188.727] zoom.report grid=72x61 id=1
+[  188.730] CMUX_REPLAY stale_request_failed surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  188.742] terminal.output.viewport_resync surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 grid=72x61
+[  188.755] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=1
+[  188.758] sync.transport=render_grid
+[  188.758] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  188.758] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  188.764] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  188.764] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  188.764] runtime.tick
+[  188.764] runtime.tick
+[  188.764] scroll.bar total=61 offset=0 len=61
+[  188.773] CMUX_REPLAY retry_after_failure surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempt=2
+[  188.776] surface.layout bounds=440x836 window=true
+[  188.776] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  188.777] runtime.tick
+[  188.789] sync.subscribe_ok topics=12 transport=renderGrid
+[  188.797] CMUX_REPLAY retry_exhausted surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 attempts=2
+[  188.798] terminal.output.replay_barrier_fail_open surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2 reason=retry_exhausted
+[  188.798] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  188.798] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  188.813] notif.reconcile delivered=0 handled=0 unread=0
+[  188.875] zoom.report grid=72x61 id=2
+[  188.892] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  189.247] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=FF0AE9C2
+[  190.492] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  192.493] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  193.214] surface.didMoveToWindow window=false
+[  193.214] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  193.271] runtime.tick
+[  193.314] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  193.322] surface.layout bounds=402x700 window=false
+[  193.322] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  193.326] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  193.328] surface.layout bounds=0x0 window=false
+[  193.328] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  193.342] changes.hint eval ws=024111FC capable=true files=-1 dismissed=false shown=false
+[  193.363] surface.didMoveToWindow window=true
+[  193.363] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.373] surface.layout bounds=440x952 window=true
+[  193.373] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.376] surface.layout bounds=440x836 window=true
+[  193.376] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.402] surface.layout bounds=440x836 window=true
+[  193.402] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.404] runtime.tick
+[  193.404] scroll.bar total=17 offset=0 len=17
+[  193.405] macupdate.hint caps=39 version=nil hint=nil
+[  193.410] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  193.414] runtime.tick
+[  193.414] scroll.bar total=61 offset=0 len=61
+[  193.414] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  193.414] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  193.418] surface.layout bounds=440x836 window=true
+[  193.418] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.418] runtime.tick
+[  193.437] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  193.437] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  193.449] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  193.508] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  193.508] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  193.560] surface.layout bounds=440x802 window=true
+[  193.560] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.574] surface.layout bounds=440x802 window=true
+[  193.574] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.578] runtime.tick
+[  193.584] geom.deferShrink container=440x680 applied=440x714
+[  193.586] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  193.586] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x61
+[  193.636] sync.transport=render_grid
+[  193.636] terminal.output.replay_barrier_cleared_workspace_not_found surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  193.636] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  193.653] sync.subscribe_ok topics=12 transport=renderGrid
+[  193.653] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  193.666] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  193.667] notif.reconcile delivered=0 handled=0 unread=0
+[  193.681] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  193.681] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  193.684] geom.deferShrink container=440x680 applied=440x714
+[  193.685] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@-34
+[  193.685] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  193.718] zoom.report grid=72x58 id=1
+[  193.718] CMUX_REPLAY stale_request_failed surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  193.735] terminal.output.viewport_resync surface=943A4094-57C7-4BD7-BB9A-13589AEE707B grid=72x36
+[  193.746] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=1
+[  193.752] runtime.tick
+[  193.752] scroll.bar total=58 offset=0 len=58
+[  193.752] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  193.752] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  193.752] runtime.tick
+[  193.754] CMUX_REPLAY retry_after_failure surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempt=2
+[  193.765] CMUX_REPLAY retry_exhausted surface=943A4094-57C7-4BD7-BB9A-13589AEE707B attempts=2
+[  193.766] terminal.output.replay_barrier_fail_open surface=943A4094-57C7-4BD7-BB9A-13589AEE707B reason=retry_exhausted
+[  193.768] surface.layout bounds=440x802 window=true
+[  193.769] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.770] runtime.tick
+[  193.785] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  193.785] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x58 lastReported=72x58
+[  193.880] zoom.report grid=72x58 id=2
+[  193.904] surface.layout bounds=440x802 window=true
+[  193.905] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  193.906] runtime.tick
+[  193.906] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  193.907] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=1 reportGrid=72x58 lastReported=72x58
+[  193.978] geom container=440x680 scale=3.0 cellPx=18x35 natural=72x58 eff=nil pinned=nil renderRect=440x680@0
+[  194.032] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[  195.396] composer.keyboardHideWhilePresented prevKeyboardHeight=318 frOwner=2 proxyIsFR=1
+[  195.412] surface.layout bounds=440x836 window=true
+[  195.412] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  195.424] runtime.tick
+[  195.424] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x680 sinceOutput=-1ms
+[  195.424] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  195.425] zoom.autofit.deferred kbAnim=0 pendingReport=0 awaitingEcho=0 reportGrid=72x36 lastReported=72x58
+[  195.425] runtime.tick
+[  195.425] scroll.bar total=36 offset=0 len=36
+[  195.428] surface.layout bounds=440x836 window=true
+[  195.428] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  195.428] runtime.tick
+[  195.443] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  195.443] zoom.autofit.deferred kbAnim=0 pendingReport=1 awaitingEcho=0 reportGrid=72x36 lastReported=72x36
+[  195.559] zoom.report grid=72x36 id=3
+[  195.571] terminal.output.replay_barrier_cleared_viewport_unchanged surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  195.577] geom container=440x430 scale=3.0 cellPx=18x35 natural=72x36 eff=nil pinned=nil renderRect=440x430@0
+[  195.928] surface.didMoveToWindow window=false
+[  195.928] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  195.943] runtime.tick
+[  196.384] composer.toggle active=true keyboardHeight=0 occInBounds=0 barHidden=false barY=0 barH=36 boundsH=700
+[  196.395] surface.layout bounds=402x700 window=false
+[  196.395] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  196.399] composer.bandHeightClamped measured=52.0 clamped=0.0
+[  196.401] surface.layout bounds=0x0 window=false
+[  196.401] surface.occlusion visible=false window=false hidden=false alpha=1.0
+[  196.414] changes.hint eval ws=7982A340 capable=true files=-1 dismissed=false shown=false
+[  196.435] surface.didMoveToWindow window=true
+[  196.435] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  196.444] surface.layout bounds=440x952 window=true
+[  196.444] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  196.447] surface.layout bounds=440x836 window=true
+[  196.447] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  196.471] surface.layout bounds=440x836 window=true
+[  196.471] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  196.473] runtime.tick
+[  196.473] scroll.bar total=17 offset=0 len=17
+[  196.475] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=false surf=0x0 sinceOutput=-1ms
+[  196.476] macupdate.hint caps=39 version=nil hint=nil
+[  196.476] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  196.476] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=nil
+[  196.476] runtime.tick
+[  196.476] scroll.bar total=61 offset=0 len=61
+[  196.476] runtime.tick
+[  196.482] surface.layout bounds=440x836 window=true
+[  196.483] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  196.493] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  196.493] zoom.autofit.deferred kbAnim=1 pendingReport=1 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  196.499] macupdate.hint caps=39 version=0.64.22 hint=nil
+[  196.610] zoom.report grid=72x61 id=1
+[  196.610] CMUX_REPLAY stale_request_failed surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA
+[  196.620] terminal.output.viewport_resync surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA grid=72x36
+[  196.629] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  196.629] zoom.autofit.deferred kbAnim=1 pendingReport=0 awaitingEcho=0 reportGrid=72x61 lastReported=72x61
+[  196.630] CMUX_REPLAY retry_after_failure surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempt=1
+[  196.637] CMUX_REPLAY retry_after_failure surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempt=2
+[  196.653] CMUX_REPLAY retry_exhausted surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA attempts=2
+[  196.653] terminal.output.replay_barrier_fail_open surface=20736B0A-3D74-4C71-BAF7-6AC68C12CACA reason=retry_exhausted
+[  196.657] sync.transport=render_grid
+[  196.657] terminal.output.replay_barrier_cleared_workspace_not_found surface=6119EBBC-1B2F-4616-8A12-9A4C009FA4F2
+[  196.657] terminal.output.replay_barrier_cleared_workspace_not_found surface=943A4094-57C7-4BD7-BB9A-13589AEE707B
+[  196.677] sync.subscribe_ok topics=12 transport=renderGrid
+[  196.691] notif.reconcile delivered=0 handled=0 unread=0
+[  196.710] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  197.198] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=7982A340
+[  197.684] runtime.tick
+[  199.008] tick.alive win=true suspended=false renderInFlight=false needsDraw=true contents=true surf=440x714 sinceOutput=-1ms
+[  199.036] surface.layout bounds=440x836 window=true
+[  199.036] surface.occlusion visible=true window=true hidden=false alpha=1.0
+[  199.041] runtime.tick
+[  199.042] geom container=440x714 scale=3.0 cellPx=18x35 natural=72x61 eff=nil pinned=nil renderRect=440x714@0
+[  201.022] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  203.023] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  205.023] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  206.995] sync.liveness probe_ok silentMs=10497
+[  207.023] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  209.023] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  211.023] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  212.864] changes.summary ok requested=3 summaries=3 chips=0 sample=- reqSample=024111FC
+[  213.024] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  215.024] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  217.024] tick.alive win=true suspended=false renderInFlight=false needsDraw=false contents=true surf=440x714 sinceOutput=-1ms
+[  217.033] sync.liveness probe_ok silentMs=9979
+[  217.378] runtime.tick
+[  226.997] sync.liveness probe_ok silentMs=9931
+[  236.526] sync.liveness probe_ok silentMs=9520
